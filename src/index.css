@@ -280,7 +280,7 @@ body {
   float: right;
   width: 50%;
   height: 400px;
-  background-image: url("travel agency.jpg");
+  background-image: url("/travel agency.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
