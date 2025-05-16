@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import Button from "./Button";
-
 
 function Navbar() {
   function toggleMenu() {
@@ -15,9 +15,9 @@ function Navbar() {
 
       <div>
         <ul className="list">
-          <li><a href="/">Home</a></li>
-          <li><a href="/Aboutpage">About</a></li>
-          <li><a href="/Contactpage">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/Aboutpage">About</Link></li>
+        <li><Link to="/Contactpage">Contact</Link></li>
         </ul>
       </div>
        <div>
